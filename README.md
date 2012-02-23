@@ -1,23 +1,24 @@
 # Example
 
-1. Install Jruby ( I'm using RVM, which makes it painfully easy )
+##### Install Jruby:
+( I'm using RVM, which makes it painfully easy )
 
-  <pre>
-  $ rvm install jruby
-  $ rvm use jruby
-  </pre>
+<pre>
+$ rvm install jruby
+$ rvm use jruby
+</pre>
 
 Other options are available at http://jruby.org/getting-started
 
-2. Run
+##### Run:
 
-  <pre>
-  $ ruby oscar.rb
-  </pre>
+<pre>
+$ ruby oscar.rb
+</pre>
 
 
 
-##### should see something like:
+##### Output:
 <pre>
 OSCAR-4: Hello from Ruby!
 6043 [main] INFO uk.ac.cam.ch.wwmm.oscar.obo.OntologyTerm - Loading ontology terms: uk/ac/cam/ch/wwmm/oscar/obo/terms/ontology.txt
