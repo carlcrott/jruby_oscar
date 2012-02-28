@@ -11,8 +11,6 @@ lib_dir = "/home/thrive/java_projects/JARs/"
 class_paths = [
   "commons-lang-2.1.jar",
   "oscar4-all-4.1-with-dependencies.jar",
-  "commons-lang-2.1.jar",
-  "oscar4-all-4.1-with-dependencies.jar",
 ]
 
 for class_path in class_paths
