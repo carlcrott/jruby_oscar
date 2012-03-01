@@ -5,11 +5,10 @@
 require "java"
 
 
-# specify dir containing your .jar files
-lib_dir = "/home/thrive/java_projects/JARs/"
+# specifys local jars
+lib_dir = "./jars/"
 # specify individual .jars used in this project
 class_paths = [
-  "commons-lang-2.1.jar",
   "oscar4-all-4.1-with-dependencies.jar",
 ]
 
@@ -17,23 +16,6 @@ for class_path in class_paths
   jar_path = (lib_dir + class_path)
   $CLASSPATH << jar_path
 end
-
-# ------------- Optional local jar configuration ----------------
-#class_paths = [
-#  "./jars/commons-lang-2.1.jar",
-#  "./jars/oscar4-all-4.1-with-dependencies.jar",
-#]
-
-#for class_path in class_paths
-#  $CLASSPATH << class_path
-#end
-# --------------------------------------------------------------
-
-#puts $CLASSPATH.to_s
-
-#puts $CLASSPATH.class
-
-
 
 
 include_class "uk.ac.cam.ch.wwmm.oscar.chemnamedict.entities.ChemicalStructure"
